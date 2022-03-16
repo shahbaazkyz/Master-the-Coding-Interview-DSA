@@ -1,13 +1,13 @@
-# Master-the-Coding-Interview-DSA
+# Master-the-Coding-Interview: Data Strucutre + Algorithms
+
 Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Founder of Zero to Mastery
 ## Table of contents
-
-- [Master-the-Coding-Interview-DSA](#master-the-coding-interview-dsa)
+- [Master-the-Coding-Interview: Data Strucutre + Algorithms](#master-the-coding-interview-data-strucutre--algorithms)
   - [Table of contents](#table-of-contents)
   - [**Section 1: Introduction**](#section-1-introduction)
   - [**Section 2: Getting More Interviews**](#section-2-getting-more-interviews)
     - [Resume](#resume)
-  - [**Resume Cheat Sheet**](#resume-cheat-sheet)
+    - [Resume Cheetsheet](#resume-cheetsheet)
     - [What If I Don't Have Enough Experience?](#what-if-i-dont-have-enough-experience)
     - [Portfolio](#portfolio)
     - [Where To Find Jobs?](#where-to-find-jobs)
@@ -76,8 +76,7 @@ Resume
 - Online Link
 
 
-**Resume Cheat Sheet**
----------------
+### Resume Cheetsheet
 
 ✅ Use a pre-designed resume template    
 ✅ Make the resume fit on 1 page   
