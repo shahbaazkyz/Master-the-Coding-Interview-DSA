@@ -9,6 +9,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Resume](#resume)
     - [Resume Cheetsheet](#resume-cheetsheet)
     - [What If I Don't Have Enough Experience?](#what-if-i-dont-have-enough-experience)
+    - [Linkedin](#linkedin)
     - [Portfolio](#portfolio)
     - [Where To Find Jobs?](#where-to-find-jobs)
 
@@ -115,6 +116,15 @@ Resume
 
 **[⬆ back to top](#table-of-contents)**
 
+### Linkedin
+- Update the linkedin profile with the skills you have and according to the jobs that you're targetting.
+- Include relevant skills and keywords.
+- Find a people, connect and message or get referals of those companies in which you want to work.
+- Update your linkedin profile after few days when you're searching for a job.
+  
+
+**[⬆ back to top](#table-of-contents)**
+
 ### Portfolio
 
 - [Creative Tim](https://www.creative-tim.com/)
@@ -126,8 +136,11 @@ Resume
 
 **[⬆ back to top](#table-of-contents)**
 
+
 ### Where To Find Jobs?
 
 [Where To Find Jobs?](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12111418#content)
+
+
 
 **[⬆ back to top](#table-of-contents)**
