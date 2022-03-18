@@ -11,6 +11,9 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [What If I Don't Have Enough Experience?](#what-if-i-dont-have-enough-experience)
     - [Linkedin](#linkedin)
     - [Portfolio](#portfolio)
+    - [Email](#email)
+    - [Email Sample](#email-sample)
+    - [Getting Email Extensions.](#getting-email-extensions)
     - [Where To Find Jobs?](#where-to-find-jobs)
 
 
@@ -136,7 +139,35 @@ Resume
 
 **[⬆ back to top](#table-of-contents)**
 
+### Email
+- Ask people in the company for referral.
+- Meet them, or message them, meet people in Meetups
+- People love talking about themselve, ask CTOs, lead developers and professionals for a chat in office or coffer & let them know you're interested in getting where they are professionally and _learn from them_.
+- The key in above mention point is just not ask him for a job.
+- Try to bypass the formalities in application process by trying to get in interview right away.
 
+**[⬆ back to top](#table-of-contents)**
+### Email Sample
+Hey $BOB,
+I saw your presentation at $CONFERENCE last year on Youtube (rr point to some work they have done).
+Great stuff; loved what you did with $FOO, in particular
+$COMMENT_PROVING_YOU_KNOW_WHAT_YOU'RE_TALKING_ABOUT.
+I'm also a $FOO developer. I noticed that your company is hiring
+or $ROLE. I’d love to be a part of your team. Do you have a
+few minutes to chat on Thursday about what you guys are doing?
+
+Thanks,
+Yourname
+Your website or any public profile link.
+
+**[⬆ back to top](#table-of-contents)**
+### Getting Email Extensions.
+- [Hunter - Email Finder Extension
+](https://chrome.google.com/webstore/detail/hunter-email-finder-exten/hgmhmanijnjhaffoampdlllchpolkdnj?hl=en)
+- [Find anyone's email - Contact Out](https://chrome.google.com/webstore/detail/find-anyones-email-contac/jjdemeiffadmmjhkbbpglgnlgeafomjo?hl=en)
+- [Email Extractor](https://chrome.google.com/webstore/detail/email-extractor/jdianbbpnakhcmfkcckaboohfgnngfcc?hl=en)
+
+**[⬆ back to top](#table-of-contents)**
 ### Where To Find Jobs?
 
 [Where To Find Jobs?](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12111418#content)
