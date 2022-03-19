@@ -170,6 +170,10 @@ Your website or any public profile link.
 **[⬆ back to top](#table-of-contents)**
 ### Where To Find Jobs?
 
+- Getting an interview is a number game, for getting a interview you need to apply 50 places.
+- Just applying to companies blindly is not a good idea.
+- If you have companies you love or you want to work for a specific company and targetting your approach and focus is a lot better more efficient way of spending your time. 
+
 [Where To Find Jobs?](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12111418#content)
 
 
