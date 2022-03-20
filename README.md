@@ -15,6 +15,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Email Sample](#email-sample)
     - [Getting Email Extensions.](#getting-email-extensions)
     - [Where To Find Jobs?](#where-to-find-jobs)
+    - [Resources for finding a Job.](#resources-for-finding-a-job)
 
 
 ## **Section 1: Introduction**
@@ -172,9 +173,10 @@ Your website or any public profile link.
 
 - Getting an interview is a number game, for getting a interview you need to apply 50 places.
 - Just applying to companies blindly is not a good idea.
-- If you have companies you love or you want to work for a specific company and targetting your approach and focus is a lot better more efficient way of spending your time. 
+- If you have companies you love or you want to work for a specific company and targetting your approach and focus is a lot better more efficient way of spending your time.
 
-[Where To Find Jobs?](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12111418#content)
+### Resources for finding a Job.
+[Resources for jobs](resourcesForJobs.html)
 
 
 
