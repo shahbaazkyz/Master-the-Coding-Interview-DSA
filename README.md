@@ -16,6 +16,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Getting Email Extensions.](#getting-email-extensions)
     - [Where To Find Jobs?](#where-to-find-jobs)
     - [Resources for finding a Job.](#resources-for-finding-a-job)
+    - [When should you start applying?](#when-should-you-start-applying)
 
 
 ## **Section 1: Introduction**
@@ -177,6 +178,14 @@ Your website or any public profile link.
 
 ### Resources for finding a Job.
 [Resources for jobs](resourcesForJobs.html)
+
+### When should you start applying?
+- **Now.**
+- If you're applying to a job where you check all the requirements check boxes and you know everything then that means you are getting a where job where you already know what to do. _You won't grow in this world._
+- A job description is simply a guideline of what type of work you will be doing not what type of work have you done in the past.
+- Giving interview use as practice just like with anything.
+- Remember, **_IF YOU NEVER ASK, THE ANSWER IS ALWAY NO._** So start applying now.
+
 
 
 
