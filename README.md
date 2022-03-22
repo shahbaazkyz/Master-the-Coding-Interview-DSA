@@ -18,6 +18,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Resources for finding a Job.](#resources-for-finding-a-job)
     - [When should you start applying?](#when-should-you-start-applying)
   - [**Section 3: Big O**](#section-3-big-o)
+    - [Setting Up Your Environment](#setting-up-your-environment)
 
 
 ## **Section 1: Introduction**
@@ -190,3 +191,21 @@ Your website or any public profile link.
 **[⬆ back to top](#table-of-contents)**
 
 ## **Section 3: Big O**
+
+### Setting Up Your Environment
+
+- [Repl.it](https://repl.it/)
+- [glot.io](https://glot.io/)
+- [RunJS](https://runjs.dev/)
+
+**[⬆ back to top](#table-of-contents)**
+
+Python, C/C++, Golang, Swift and JavaScript Solutions!
+
+- [Python](https://github.com/theja-m/Data-Structures-and-Algorithms)
+- [C/C++](https://github.com/shree1999/Data-Structures-and-Algorithms)
+- [Golang](https://github.com/punitpandey/DS-Algo)
+- [Swift](https://github.com/preetamjadakar/datastructures-swift)
+
+**[⬆ back to top](#table-of-contents)**
+
