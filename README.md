@@ -17,6 +17,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Where To Find Jobs?](#where-to-find-jobs)
     - [Resources for finding a Job.](#resources-for-finding-a-job)
     - [When should you start applying?](#when-should-you-start-applying)
+  - [**Section 3: Big O**](#section-3-big-o)
 
 
 ## **Section 1: Introduction**
@@ -186,7 +187,6 @@ Your website or any public profile link.
 - Giving interview use as practice just like with anything.
 - Remember, **_IF YOU NEVER ASK, THE ANSWER IS ALWAY NO._** So start applying now.
 
-
-
-
 **[⬆ back to top](#table-of-contents)**
+
+## **Section 3: Big O**
