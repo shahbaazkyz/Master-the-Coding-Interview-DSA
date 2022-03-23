@@ -19,6 +19,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [When should you start applying?](#when-should-you-start-applying)
   - [**Section 3: Big O**](#section-3-big-o)
     - [Setting Up Your Environment](#setting-up-your-environment)
+    - [Section Overview](#section-overview)
 
 
 ## **Section 1: Introduction**
@@ -186,7 +187,7 @@ Your website or any public profile link.
 - If you're applying to a job where you check all the requirements check boxes and you know everything then that means you are getting a where job where you already know what to do. _You won't grow in this world._
 - A job description is simply a guideline of what type of work you will be doing not what type of work have you done in the past.
 - Giving interview use as practice just like with anything.
-- Remember, **_IF YOU NEVER ASK, THE ANSWER IS ALWAY NO._** So start applying now.
+- Remember, **_IF YOU NEVER ASK, THE ANSWER IS ALWAYS NO._** So start applying now.
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -208,4 +209,19 @@ Python, C/C++, Golang, Swift and JavaScript Solutions!
 - [Swift](https://github.com/preetamjadakar/datastructures-swift)
 
 **[⬆ back to top](#table-of-contents)**
+
+### Section Overview
+- Most important topics for any Software developer or Engineer.
+- Even if you're coding 10 years later from now this is a concept that will be around for a long time.
+- That will make truly make you a better developer.
+- Without Big-O you cannot encouter Big companies interviews like Google, Facebook, Alibaba, Amazon OR FAANG.
+- Big-O and official term is Big-O _asymptomatic analysis_.
+- Any coder given enough time can solve a problem. What matters is though how well the problem is solved. And this is where Big-O can help us.
+- Big-O can tell us how well a problem is solved.
+- WIth Big-O we can distinguish Good code and bad code.
+- This topic will come again and again.
+
+
+**[⬆ back to top](#table-of-contents)**
+
 
