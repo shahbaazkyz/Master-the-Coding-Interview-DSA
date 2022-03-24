@@ -20,6 +20,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
   - [**Section 3: Big O**](#section-3-big-o)
     - [Setting Up Your Environment](#setting-up-your-environment)
     - [Section Overview](#section-overview)
+    - [What Is Good Code?](#what-is-good-code)
 
 
 ## **Section 1: Introduction**
@@ -221,6 +222,33 @@ Python, C/C++, Golang, Swift and JavaScript Solutions!
 - WIth Big-O we can distinguish Good code and bad code.
 - This topic will come again and again.
 
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### What Is Good Code?
+
+What Is Good Code?
+
+- Readable
+- Scalable [Big O]
+  - **Question:** How can we measure the good and bad code?
+  - **Answer :** Big-O notation is the language we use for talking about how long an algorithm takes to run.
+  - **X-axis:** Elements/Inputs, **y-axis:** Operations
+  - Excellent, Good: O(log n), O(1)
+  - Fair: O(n)
+  - Bad: O(nlog n)
+  - Horrible: O(n^2), O(2^n), O(n!)
+
+_When we talk about Big-O and scalability of code we simply mean when we grow bigger and bigger with our input, how much does the algorithm or function slow down. The less it slows down the better it is._
+
+Big O
+![](big-o-complexity.jpg)
+
+- [Know Thy Complexities](https://www.bigocheatsheet.com/)
+- [Big O Algorithm Complexity](big-o-complexity.pdf)
+- [Big O Cheat Sheet](big-o-cheatsheet.pdf)
+- [What is the difference between big oh, big omega and big theta notations?](https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations)
 
 **[⬆ back to top](#table-of-contents)**
 
