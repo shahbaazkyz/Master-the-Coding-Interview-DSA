@@ -245,7 +245,7 @@ _When we talk about Big-O and scalability of code we simply mean when we grow bi
 Big O
 ![](big-o-complexity.jpg)
 
-- [Know Thy Complexities](https://www.bigocheatsheet.com/)
+- [Know The Complexities](https://www.bigocheatsheet.com/)
 - [Big O Algorithm Complexity](big-o-complexity.pdf)
 - [Big O Cheat Sheet](big-o-cheatsheet.pdf)
 - [What is the difference between big oh, big omega and big theta notations?](https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations)
