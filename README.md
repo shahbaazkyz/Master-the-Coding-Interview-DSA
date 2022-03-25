@@ -21,6 +21,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Setting Up Your Environment](#setting-up-your-environment)
     - [Section Overview](#section-overview)
     - [What Is Good Code?](#what-is-good-code)
+    - [O(n) (Linear time)](#on-linear-time)
 
 
 ## **Section 1: Introduction**
@@ -253,3 +254,47 @@ Big O
 **[⬆ back to top](#table-of-contents)**
 
 
+### O(n) (Linear time)
+
+- Linear rate - As our number of inputs increase the number of operations as well.
+- **Keep in mind,** Big-O doesn't measure things in **seconds** instead focusing on **how quickly our runtime grows**. By simply using the size of input (n) and compare to the number of operations that increase.
+- Scalability means, as things grow larger and larger does it scale?
+
+![](big-o-graph.png)
+
+```javascript
+// O(n): Linear time
+const fish = ['dory', 'bruce', 'marlin', 'nemo']
+const nemo = ['nemo']
+const everyone = [
+  'dory',
+  'bruce',
+  'marlin',
+  'nemo',
+  'gill',
+  'bloat',
+  'nigel',
+  'squirt',
+  'darla',
+  'hank',
+]
+const large = new Array(100000).fill('nemo')
+
+const findNemo = (fish) => {
+  let t0 = performance.now()
+  for (let i = 0; i < fish.length; i++) {
+    if (fish[i] === 'nemo') {
+      console.log('Found NEMO!')
+    }
+  }
+  let t1 = performance.now()
+  console.log('Call to find Nemo took ' + (t1 - t0) + ' milliseconds.')
+}
+
+findNemo(large) // O(n) --> linear time
+```
+
+Compression Example.
+![](big-o-compression.png)
+
+**[⬆ back to top](#table-of-contents)**
