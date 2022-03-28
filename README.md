@@ -22,6 +22,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Section Overview](#section-overview)
     - [What Is Good Code?](#what-is-good-code)
     - [O(n) (Linear time)](#on-linear-time)
+    - [O(1) (Constant time)](#o1-constant-time)
 
 
 ## **Section 1: Introduction**
@@ -296,5 +297,27 @@ findNemo(large) // O(n) --> linear time
 
 Compression Example.
 ![](big-o-compression.png)
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### O(1) (Constant time)
+
+- O(1) is Excellent in Complexity chart.
+- No matter how much input grows, the number of operations remains same.
+
+![](constant-time.png)
+
+```javascript
+// O(1): Constant time
+const boxes = [0, 1, 2, 3, 4, 5]
+
+const logFirstTwoBoxes = (boxes) => {
+  console.log(boxes[0])	// O(1)
+  console.log(boxes[1])	// O(1)
+}
+
+logFirstTwoBoxes(boxes) // O(2)
+```
 
 **[⬆ back to top](#table-of-contents)**
