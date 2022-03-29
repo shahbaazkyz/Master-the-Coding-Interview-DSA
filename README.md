@@ -23,6 +23,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [What Is Good Code?](#what-is-good-code)
     - [O(n) (Linear time)](#on-linear-time)
     - [O(1) (Constant time)](#o1-constant-time)
+    - [Exercise: Big O Calculation](#exercise-big-o-calculation)
 
 
 ## **Section 1: Introduction**
@@ -318,6 +319,34 @@ const logFirstTwoBoxes = (boxes) => {
 }
 
 logFirstTwoBoxes(boxes) // O(2)
+```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Exercise: Big O Calculation
+
+- Assignment takes constant.
+
+```javascript
+// What is the Big O of the below function?
+// Hint, you may want to go line by line
+const funChallenge = (input) => {
+  let a = 10 // O(1)
+  a = 50 + 3 // O(1)
+
+  for (let i = 0; i < input.length; i++) {
+    anotherFunction() // O(n)
+    let stranger = true // O(n)
+    a++ // O(n)
+  }
+  return a // O(1)
+}
+
+// 1 + 1 + 1 + n + n + n
+// Big O(3 + 3n)
+// O(n)
+funChallenge()
 ```
 
 **[⬆ back to top](#table-of-contents)**
