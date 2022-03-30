@@ -24,6 +24,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [O(n) (Linear time)](#on-linear-time)
     - [O(1) (Constant time)](#o1-constant-time)
     - [Exercise: Big O Calculation](#exercise-big-o-calculation)
+    - [Exercise: Big O Calculation 2](#exercise-big-o-calculation-2)
 
 
 ## **Section 1: Introduction**
@@ -347,6 +348,35 @@ const funChallenge = (input) => {
 // Big O(3 + 3n)
 // O(n)
 funChallenge()
+```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Exercise: Big O Calculation 2
+
+```javascript
+// What is the Big O of the below function? 
+// (Hint, you may want to go line by line)
+const anotherFunChallenge = (input) => {
+  let a = 5 //O(1)
+  let b = 10 //O(1)
+  let c = 50 //O(1)
+  for (let i = 0; i < input; i++) {
+    let x = i + 1 //O(n)
+    let y = i + 2 //O(n)
+    let z = i + 3 //O(n)
+  }
+  for (let j = 0; j < input; j++) {
+    let p = j * 2 //O(n)
+    let q = j * 2 //O(n)
+  }
+  let whoAmI = "I don't know" //O(1)
+}
+
+// Big O(4 + 5n)
+// Big O(n)
+anotherFunChallenge(5)
 ```
 
 **[⬆ back to top](#table-of-contents)**
