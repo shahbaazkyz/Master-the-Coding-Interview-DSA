@@ -25,6 +25,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [O(1) (Constant time)](#o1-constant-time)
     - [Exercise: Big O Calculation](#exercise-big-o-calculation)
     - [Exercise: Big O Calculation 2](#exercise-big-o-calculation-2)
+    - [Simplifying Big O](#simplifying-big-o)
 
 
 ## **Section 1: Introduction**
@@ -378,5 +379,16 @@ const anotherFunChallenge = (input) => {
 // Big O(n)
 anotherFunChallenge(5)
 ```
+
+**[⬆ back to top](#table-of-contents)**
+
+### Simplifying Big O
+
+Rule Book
+
+1. Worst Case
+2. Remove Constants
+3. Different terms for inputs
+4. Drop Non Dominants
 
 **[⬆ back to top](#table-of-contents)**
