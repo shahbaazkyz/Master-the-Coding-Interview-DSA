@@ -26,6 +26,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Exercise: Big O Calculation](#exercise-big-o-calculation)
     - [Exercise: Big O Calculation 2](#exercise-big-o-calculation-2)
     - [Simplifying Big O](#simplifying-big-o)
+    - [Big O Rule 1 - Worst Case](#big-o-rule-1---worst-case)
 
 
 ## **Section 1: Introduction**
@@ -390,5 +391,46 @@ Rule Book
 2. Remove Constants
 3. Different terms for inputs
 4. Drop Non Dominants
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Big O Rule 1 - Worst Case
+
+- We'll always care about worst case, even if result in initial loops.
+
+```javascript
+// Worst Case: n
+const fish = ['dory', 'bruce', 'marlin', 'nemo']
+const nemo = ['nemo']
+const everyone = [
+  'dory',
+  'bruce',
+  'marlin',
+  'nemo',
+  'gill',
+  'bloat',
+  'nigel',
+  'squirt',
+  'darla',
+  'hank',
+]
+const large = new Array(100000).fill('nemo')
+
+const findNemo = (fish) => {
+  let t0 = performance.now()
+  for (let i = 0; i < fish.length; i++) {
+    console.log('running')
+    if (fish[i] === 'nemo') {
+      console.log('Found NEMO!')
+      break
+    }
+  }
+  let t1 = performance.now()
+  console.log('Call to find Nemo took ' + (t1 - t0) + ' milliseconds.')
+}
+
+findNemo(large)
+```
 
 **[⬆ back to top](#table-of-contents)**
