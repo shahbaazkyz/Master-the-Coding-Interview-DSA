@@ -27,6 +27,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Exercise: Big O Calculation 2](#exercise-big-o-calculation-2)
     - [Simplifying Big O](#simplifying-big-o)
     - [Big O Rule 1 - Worst Case](#big-o-rule-1---worst-case)
+    - [Big O Rule 2 - Remove Constants](#big-o-rule-2---remove-constants)
 
 
 ## **Section 1: Introduction**
@@ -431,6 +432,49 @@ const findNemo = (fish) => {
 }
 
 findNemo(large)
+```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Big O Rule 2 - Remove Constants
+
+- Remeber, drop the constants.
+- You're never going to really see the numbers in Big O notation.
+
+![](big-o-constants.png)
+
+**_To prove that, if we look at at this function in our graph we see that the elements as the elements increase_**
+![](constant-proof.png)
+
+- 2 elements 2 operations, 4 elements 4 operations, 6 elements 6 operations.
+- Even though line is increasing, the way line is increases still linear, That's the key.
+- In Big O we don't care about how steep the line is, we care about how the line moves as our inputs increase.
+
+
+```javascript
+// Big O(1 + n/2 + 100)
+// Big O(n/2 + 101)
+// Big O(n/2)
+// Big O(n)
+const printFirstItemThenFirstHalfThenSayHi100Times = (items) => {
+  // O(1)
+  console.log(items[0])
+
+  const middleIndex = Math.floor(items.length / 2)
+  const index = 0
+
+  // O(n/2)
+  while (index < middleIndex) {
+    console.log(items[index])
+    index++
+  }
+
+  // O(100)
+  for (let i = 0; i < 100; i++) {
+    console.log('hi')
+  }
+}
 ```
 
 **[⬆ back to top](#table-of-contents)**
