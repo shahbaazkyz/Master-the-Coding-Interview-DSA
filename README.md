@@ -28,6 +28,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Simplifying Big O](#simplifying-big-o)
     - [Big O Rule 1 - Worst Case](#big-o-rule-1---worst-case)
     - [Big O Rule 2 - Remove Constants](#big-o-rule-2---remove-constants)
+    - [Big O Rule 3 - Different terms for inputs](#big-o-rule-3---different-terms-for-inputs)
 
 
 ## **Section 1: Introduction**
@@ -475,6 +476,24 @@ const printFirstItemThenFirstHalfThenSayHi100Times = (items) => {
     console.log('hi')
   }
 }
+```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Big O Rule 3 - Different terms for inputs
+
+- Both input lenght can be vary that's why it's O(a + b)
+
+```javascript
+// boxes, boxes2 are 2 different terms for inputs
+// Big O(a + b)
+const compressBoxesTwice = (boxes, boxes2) => {
+  boxes.forEach((box) => console.log(box)) // O(a)
+  boxes2.forEach((box) => console.log(box)) // O(b)
+}
+
+compressBoxesTwice([1, 2, 3], [4, 5])
 ```
 
 **[⬆ back to top](#table-of-contents)**
