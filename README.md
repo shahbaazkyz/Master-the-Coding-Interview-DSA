@@ -29,6 +29,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Big O Rule 1 - Worst Case](#big-o-rule-1---worst-case)
     - [Big O Rule 2 - Remove Constants](#big-o-rule-2---remove-constants)
     - [Big O Rule 3 - Different terms for inputs](#big-o-rule-3---different-terms-for-inputs)
+    - [O(n^2)](#on2)
 
 
 ## **Section 1: Introduction**
@@ -494,6 +495,39 @@ const compressBoxesTwice = (boxes, boxes2) => {
 }
 
 compressBoxesTwice([1, 2, 3], [4, 5])
+```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### O(n^2)
+
+- O (n ^ 2) - Quadratinc time.
+- O (n ^ 2) is Horrible.
+- When loops are one after another we use addition e.g. O(n + n). And when loops are nested, we use multiplication e.g. O(n * n) OR O(n^2).
+
+![](quadratic-time.png)
+
+- Every time the number of elements increase, number of operations increase quadratically.
+- In above example, when number of elements is 2 then number of operations is 3. When one element increase e.g. 3, the number of operation icreases to 9 OR 3^2. 
+- Lot of interview questions that ask you to solve a problem initially is O(n^2) and make it faster by perhaps making it into something that in a bit lower e.g. BAD or FAIR.
+
+
+
+```javascript
+// Big O(a * b) - Quadratic Time
+const boxes = ['a', 'b', 'c', 'd', 'e']
+const logAllPairsOfArray = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    // O(a)
+    for (let j = 0; j < array.length; j++) {
+      // O(b)
+      console.log(array[i], array[j])
+    }
+  }
+}
+
+logAllPairsOfArray(boxes)
 ```
 
 **[⬆ back to top](#table-of-contents)**
