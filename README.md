@@ -485,6 +485,7 @@ const printFirstItemThenFirstHalfThenSayHi100Times = (items) => {
 ### Big O Rule 3 - Different terms for inputs
 
 - Both input lenght can be vary that's why it's O(a + b)
+- Different input should have different variables.
 
 ```javascript
 // boxes, boxes2 are 2 different terms for inputs
