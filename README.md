@@ -30,6 +30,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Big O Rule 2 - Remove Constants](#big-o-rule-2---remove-constants)
     - [Big O Rule 3 - Different terms for inputs](#big-o-rule-3---different-terms-for-inputs)
     - [O(n^2)](#on2)
+    - [Big O Rule 4 - Drop Non Dominants](#big-o-rule-4---drop-non-dominants)
 
 
 ## **Section 1: Introduction**
@@ -529,6 +530,33 @@ const logAllPairsOfArray = (array) => {
 }
 
 logAllPairsOfArray(boxes)
+```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Big O Rule 4 - Drop Non Dominants
+
+- Drop non dominant terms, just remain those terms which are impactful e.g. O(n + n^2) _n^2_ is the way more important than the _n_ because _n^2_ is impacting more.
+- We always just keep the dominant term.
+- Another example: O(x^2 + 2 + 3x + 100 + x/2) here we just keep O(x^2).
+
+```javascript
+// Big O(n + n^2)
+// Drop Non Dominants -> Big O(n^2)
+const printAllNumbersThenAllPairSums = (numbers) => {
+  // O(n)
+  console.log('these are the numbers:')
+  numbers.forEach((number) => console.log(number))
+
+  // O(n^2)
+  console.log('and these are their sums:')
+  numbers.forEach((firstNumber) =>
+    numbers.forEach((secondNumber) => console.log(firstNumber + secondNumber))
+  )
+}
+
+printAllNumbersThenAllPairSums([1, 2, 3, 4, 5])
 ```
 
 **[⬆ back to top](#table-of-contents)**
