@@ -31,6 +31,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Big O Rule 3 - Different terms for inputs](#big-o-rule-3---different-terms-for-inputs)
     - [O(n^2)](#on2)
     - [Big O Rule 4 - Drop Non Dominants](#big-o-rule-4---drop-non-dominants)
+    - [Big O Cheatsheet.](#big-o-cheatsheet)
 
 
 ## **Section 1: Introduction**
@@ -558,5 +559,13 @@ const printAllNumbersThenAllPairSums = (numbers) => {
 
 printAllNumbersThenAllPairSums([1, 2, 3, 4, 5])
 ```
+
+**[⬆ back to top](#table-of-contents)**
+
+### Big O Cheatsheet.
+
+_To download cheatsheet click below._
+
+[Big O Algorithm Complexity](big-o-complexity.pdf)
 
 **[⬆ back to top](#table-of-contents)**
