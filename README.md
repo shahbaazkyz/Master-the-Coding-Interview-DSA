@@ -32,6 +32,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [O(n^2)](#on2)
     - [Big O Rule 4 - Drop Non Dominants](#big-o-rule-4---drop-non-dominants)
     - [Big O Cheatsheet.](#big-o-cheatsheet)
+    - [What Does This All Mean?](#what-does-this-all-mean)
 
 
 ## **Section 1: Introduction**
@@ -567,5 +568,32 @@ printAllNumbersThenAllPairSums([1, 2, 3, 4, 5])
 _To download cheatsheet click below._
 
 [Big O Algorithm Complexity](big-o-complexity.pdf)
+
+**[⬆ back to top](#table-of-contents)**
+
+### What Does This All Mean?
+
+- Scalable means we worry about large inputs.
+- If our function is only worry about really small inputs OR we know that our input are going to be only an array of five items, **Big O won't matter as much.**.
+- See below image, if our input are small all these lines are bunch up together which means Big O won't affect on small inputs as much, but it's not real life.
+![](initial-input.png)
+
+- When we write code, we want to write code that can scale so that we don't have to constantly go back and fix things Or when things get out of hand the code breaks.
+- That's why Big-O is so important to write scalable code.
+- In Javascript we have array methods e.g. push, pop, shift, unshift. All these methods which are functions have a cost associated with them.
+- Example:  When we search in an array or access first item in array it's O(1) but when we use **unshift** it turns out to be O(n).
+- We use Big-O to measure why one Data structure might be better than others. Why should we use an array instead of object. Maybe object has better functions what we need for our data.
+- For better understanding of different operations of different Data Structures see below image. We have different Big-O notations for different Data Structures.
+
+![](DS-operations.png)
+
+- In above image, some DS have really good Big O for searching. Some DS good in deletion, insertion etc. Each DS have different pros and cons.
+- **_DS are simply ways to store data and algorithms are simply functions or ways to use Data Structures to write our programs. Instructions for our machines._**
+- **Data Structures + Algorithms = Programs**
+- Great programmers have this knowledge where they pick the right data structure, right algorithm to write good programs.
+- In this section we lay our foundation for finding what is a good solution to a problem and what is a bad.
+- Most interviews have this core concept, what's the right data structure, what's the right algorithm to write good programs.
+- Google hires engineers and developers that know this, because they have a lot  of scale that they have to think about, alot of inputs. And people know how to handle these programs are the ones that are going to be able to build great programs.
+- It's too much, but it Worths. 😛🌠
 
 **[⬆ back to top](#table-of-contents)**
