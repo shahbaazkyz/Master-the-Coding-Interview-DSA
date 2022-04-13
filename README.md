@@ -33,6 +33,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Big O Rule 4 - Drop Non Dominants](#big-o-rule-4---drop-non-dominants)
     - [Big O Cheatsheet.](#big-o-cheatsheet)
     - [What Does This All Mean?](#what-does-this-all-mean)
+    - [O(n!)](#on)
 
 
 ## **Section 1: Introduction**
@@ -595,5 +596,16 @@ _To download cheatsheet click below._
 - Most interviews have this core concept, what's the right data structure, what's the right algorithm to write good programs.
 - Google hires engineers and developers that know this, because they have a lot  of scale that they have to think about, alot of inputs. And people know how to handle these programs are the ones that are going to be able to build great programs.
 - It's too much, but it Worths. 😛🌠
+
+**[⬆ back to top](#table-of-contents)**
+
+### O(n!)
+
+- If you're writing code that has this Big O notation you're definitely doing something wrong.
+- It's the most expensive one and it's the steepest of them all in chart. 
+- This is called **Factorial time**.
+- It means that we're adding a nested loop for every input that we have.
+
+[Example of O(n!)?](https://stackoverflow.com/questions/3953244/example-of-on)
 
 **[⬆ back to top](#table-of-contents)**
