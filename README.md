@@ -34,6 +34,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Big O Cheatsheet.](#big-o-cheatsheet)
     - [What Does This All Mean?](#what-does-this-all-mean)
     - [O(n!)](#on)
+    - [3 Pillars Of Programming](#3-pillars-of-programming)
 
 
 ## **Section 1: Introduction**
@@ -607,5 +608,15 @@ _To download cheatsheet click below._
 - It means that we're adding a nested loop for every input that we have.
 
 [Example of O(n!)?](https://stackoverflow.com/questions/3953244/example-of-on)
+
+**[⬆ back to top](#table-of-contents)**
+
+### 3 Pillars Of Programming
+
+What is good code?
+
+1. Readable
+2. Scalable - Speed (Time Complexity)
+3. Scalable - memory (Space Complexity)
 
 **[⬆ back to top](#table-of-contents)**
