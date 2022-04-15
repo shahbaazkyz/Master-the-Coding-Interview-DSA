@@ -35,6 +35,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [What Does This All Mean?](#what-does-this-all-mean)
     - [O(n!)](#on)
     - [3 Pillars Of Programming](#3-pillars-of-programming)
+    - [Space Complexity](#space-complexity)
 
 
 ## **Section 1: Introduction**
@@ -618,5 +619,22 @@ What is good code?
 1. Readable
 2. Scalable - Speed (Time Complexity)
 3. Scalable - memory (Space Complexity)
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Space Complexity
+
+When a program executes it has two ways to remember things
+- When a program executes it has two ways to remember things
+  - Heap - Store variables
+  - Stack - Keep track of function calls
+
+What causes Space Complexity?
+
+- Variables
+- Data Structures
+- Function Call
+- Allocations
 
 **[⬆ back to top](#table-of-contents)**
