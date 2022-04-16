@@ -36,6 +36,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [O(n!)](#on)
     - [3 Pillars Of Programming](#3-pillars-of-programming)
     - [Space Complexity](#space-complexity)
+    - [Exercise: Space Complexity](#exercise-space-complexity)
 
 
 ## **Section 1: Introduction**
@@ -636,5 +637,32 @@ What causes Space Complexity?
 - Data Structures
 - Function Call
 - Allocations
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Exercise: Space Complexity
+
+```javascript
+// Space complexity O(1)
+const boooo = n => {
+  // space allocation for i is O(1)
+  for (let i = 0; i < n.length; i++) {
+    console.log('booooo');
+  }
+}
+boooo([1, 2, 3, 4, 5])
+
+// Space complexity O(n)
+const arrayOfHiNTimes = n => {
+  // space allocation for Data Structures hiArray is O(n)
+  const hiArray = [];
+  for (let i = 0; i < n; i++) {
+    hiArray[i] = 'hi';
+  }
+  return hiArray;
+}
+arrayOfHiNTimes(6)
+```
 
 **[⬆ back to top](#table-of-contents)**
