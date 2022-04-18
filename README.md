@@ -38,6 +38,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Space Complexity](#space-complexity)
     - [Exercise: Space Complexity](#exercise-space-complexity)
     - [Exercise Twitter](#exercise-twitter)
+    - [Section Summary](#section-summary)
 
 
 ## **Section 1: Introduction**
@@ -704,5 +705,23 @@ const tweets = [{
 - This operation might cost us a lot of money at Twitter.
 - So you might want to tell your boss, we might need to do something else perhaps store the information in a better format or do something different with our program in order to avoid something that might be ineffecient or might be expensive.
 - **By thinking this way, now you have the ability to think long-term, think scalable code.**
+
+**[⬆ back to top](#table-of-contents)**
+
+### Section Summary
+-  **Time complexity**, how long it takes to run the algorithm.
+- **Space complexity**, the memory is required by the algorithm
+- Big O says which function, algorithm or Code is best.
+- We learned that, when it comes to good code, we're concerned about readability and scalability.
+- Big O allow us to measure the idea of Scalable code.
+- Why you care? Because we need to save time and money for company.
+- Big O is a very important concept that you won't find in your day to day job, but it's something **that should always be in the back of your mind and good developers and engineers always have this knowledge.**
+- In this section we learn about time and space complexity. How we use Big O to measure both things.
+- But each one is a tradeoff between the other and Big O describes the upper bound of our estimates.
+- Big O is about how you can scale, ***it doesn't necessarily mean that O(N) is better than O(N^2), because scalibility wasn't the only factor. Readability is something that we are concerned with as well***
+- Sometimes readability maybe matters more than scalibility. Maybe time complexity is less important than space complexity. 
+- And that's something you want to be careful of now with this newfound knowledge.
+- ***PREMATURE OPTIMIZATION IS ROOT OF ALL EVIL - DONALD KNUTH***
+- Sometimes optimizing for time and space can negatively impact the readability of code.
 
 **[⬆ back to top](#table-of-contents)**
