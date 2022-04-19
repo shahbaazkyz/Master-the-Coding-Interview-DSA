@@ -39,6 +39,8 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Exercise: Space Complexity](#exercise-space-complexity)
     - [Exercise Twitter](#exercise-twitter)
     - [Section Summary](#section-summary)
+  - [**Section 4: How To Solve Coding Problems**](#section-4-how-to-solve-coding-problems)
+    - [Section Overview](#section-overview-1)
 
 
 ## **Section 1: Introduction**
@@ -723,5 +725,24 @@ const tweets = [{
 - And that's something you want to be careful of now with this newfound knowledge.
 - ***PREMATURE OPTIMIZATION IS ROOT OF ALL EVIL - DONALD KNUTH***
 - Sometimes optimizing for time and space can negatively impact the readability of code.
+
+**[⬆ back to top](#table-of-contents)**
+
+## **Section 4: How To Solve Coding Problems**
+
+
+### Section Overview
+- In this section we're going to talk about the Technical Interviews, and how to succeed in them.
+-  At the end of the day, an interview is a way for the company to find out, Can you solve a problem that the company or employer has. If you're able to solve their problems then you're valuable.
+-  We can be smart and strategic about where we apply and how we apply to a company. And we learned about that in previous sections.
+-  Here comes the big challeng, you got an interview, What would you do? Over the next couple of sections we're going to tacke this question. 
+-  Before dive into coding problems, data structures and algorithms we must first understand this one principle. **HOW TO SOLVE PROBLEMS**.
+-  If we know every single algorithm in the world and know all the data structures, you're the best coder in the world. Well it doesn't guarantee that you will succeed in a technical interview. 
+-  This section is meant to prepare you so that you have the foundation laid out. You see it's not the smartest interviewer that gets hired most of the time. It's the interviewer that is able to answer this fundamental question. Will you solve the company's problem?
+-  *It's not necessarily about the solution to a problem in a coding interview, it's about the thought process and knowing the tradeoffs between DSA, space and time complexity.*
+-  Just like in real life coding, you don't memorize things, you have deeply understands them, understand the tradeoffs.
+-  We need to understand WHY of each thing.
+-  In this section we also cover, step by step what we need to do to solve problems in a way that companies really like, so that you succeed in this coding interview.
+-  Once we have these foundations we can use DSA to solve our problems, because the interview isn't about your ability to memorize DSA. Most people make that mistake and *interviewers can detect right away who actually know these things VS just memorize them.
 
 **[⬆ back to top](#table-of-contents)**
