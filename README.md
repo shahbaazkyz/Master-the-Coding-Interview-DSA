@@ -41,6 +41,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Section Summary](#section-summary)
   - [**Section 4: How To Solve Coding Problems**](#section-4-how-to-solve-coding-problems)
     - [Section Overview](#section-overview-1)
+    - [What Are Companies Looking For?](#what-are-companies-looking-for)
 
 
 ## **Section 1: Introduction**
@@ -744,5 +745,29 @@ const tweets = [{
 -  We need to understand WHY of each thing.
 -  In this section we also cover, step by step what we need to do to solve problems in a way that companies really like, so that you succeed in this coding interview.
 -  Once we have these foundations we can use DSA to solve our problems, because the interview isn't about your ability to memorize DSA. Most people make that mistake and *interviewers can detect right away who actually know these things VS just memorize them.
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### What Are Companies Looking For?
+
+- **Analytic Skills**
+  - How can you think through a problem and analyze things? Thought process, from not knowing the answer to solving the problem.
+- **Coding Skills**
+  - Do you code well, by writing clean, simple, organized, readable code?
+- **Technical Skills**
+  - Do you know the fundamentals of the job you're applying for?
+  - Do you understand the pros and cons of different solutions?
+  - When you should use a certain data structure over the other?
+  - Why should we use a certain algorithm over another?
+- **Communication Skills**
+  - Does your personality match the companies’ culture?
+  - Can you communicate well with others?
+
+- Most people get hung up on the idea of learning every single algorithm and data structure doing a thousand problems to practice before an interview. These are important but in most companies you don't actually need to know how to write a binary search tree or write a sorting alogrithm from scratch. Although we're going to go through that in this course but most of the time you learn it on the go on the job when you actually need it.
+- Companies are looking for those people who know how to look for answers and they want to know that you know your DSA and you know of their existence. That's the key
+- They want to know when you should use a certain DS over the other. Why should we use a certain algorithm over another.
+- At the end of the day companies want smart people. They want people that can solve problems that they cannot solve themselves.
+- Do all the excercises in this course, You need to understand the WHY of doing things. Why are we learning this? Why is this the answer to the problem. Why is this answer better than the other.
 
 **[⬆ back to top](#table-of-contents)**
