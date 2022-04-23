@@ -42,6 +42,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
   - [**Section 4: How To Solve Coding Problems**](#section-4-how-to-solve-coding-problems)
     - [Section Overview](#section-overview-1)
     - [What Are Companies Looking For?](#what-are-companies-looking-for)
+    - [Exercise Google Video](#exercise-google-video)
     - [What We Need For Coding Interviews](#what-we-need-for-coding-interviews)
 
 
@@ -770,6 +771,13 @@ const tweets = [{
 - They want to know when you should use a certain DS over the other. Why should we use a certain algorithm over another.
 - At the end of the day companies want smart people. They want people that can solve problems that they cannot solve themselves.
 - Do all the excercises in this course, You need to understand the WHY of doing things. Why are we learning this? Why is this the answer to the problem. Why is this answer better than the other.
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Exercise Google Video
+
+[Google Interview Demo](https://www.youtube.com/watch?v=XKu_SEDAykw)
 
 **[⬆ back to top](#table-of-contents)**
 
