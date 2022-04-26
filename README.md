@@ -42,8 +42,8 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
   - [**Section 4: How To Solve Coding Problems**](#section-4-how-to-solve-coding-problems)
     - [Section Overview](#section-overview-1)
     - [What Are Companies Looking For?](#what-are-companies-looking-for)
-    - [Exercise Google Video](#exercise-google-video)
     - [What We Need For Coding Interviews](#what-we-need-for-coding-interviews)
+    - [Exercise Google Video](#exercise-google-video)
 
 
 ## **Section 1: Introduction**
@@ -775,13 +775,6 @@ const tweets = [{
 **[⬆ back to top](#table-of-contents)**
 
 
-### Exercise Google Video
-
-[Google Interview Demo](https://www.youtube.com/watch?v=XKu_SEDAykw)
-
-**[⬆ back to top](#table-of-contents)**
-
-
 ### What We Need For Coding Interviews
 
 [Interview Cheat Sheet](interview-cheatsheet.pdf)
@@ -804,3 +797,11 @@ const tweets = [{
 | Dynamic Programming   |
 
 **[⬆ back to top](#table-of-contents)**
+
+
+### Exercise Google Video
+
+[Google Interview Demo](https://www.youtube.com/watch?v=XKu_SEDAykw)
+
+**[⬆ back to top](#table-of-contents)**
+
