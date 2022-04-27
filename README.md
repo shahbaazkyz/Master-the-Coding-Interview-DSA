@@ -44,6 +44,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [What Are Companies Looking For?](#what-are-companies-looking-for)
     - [What We Need For Coding Interviews](#what-we-need-for-coding-interviews)
     - [Exercise Google Video](#exercise-google-video)
+    - [Exercise: Interview Question](#exercise-interview-question)
 
 
 ## **Section 1: Introduction**
@@ -805,3 +806,58 @@ const tweets = [{
 
 **[⬆ back to top](#table-of-contents)**
 
+
+### Exercise: Interview Question
+
+Given 2 arrays, create a function that let's a user know (true/false) whether these two arrays contain any common items.
+
+1. When the interviewer says the question, write down the key points at the top. Make sure you have all the details. Show how organized you are.
+
+```javascript
+const array1 = ['a', 'b', 'c', 'x'];
+const array2 = ['z', 'y', 'i'];
+should return false.
+
+const array1 = ['a', 'b', 'c', 'x'];
+const array2 = ['z', 'y', 'x'];
+should return true.
+```
+
+2. Make sure you double check: What are the inputs? What are the outputs?
+
+```javascript
+What are the inputs? 
+2 parameters - arrays
+
+What are the outputs?
+return true or false
+```
+
+3. What is the most important value of the problem? Do you have time, and space and memory, etc.. What is the main goal?
+
+```javascript
+2 parameters - arrays - no size limit
+```
+
+4. Don't be annoying and ask too many questions.
+5. Start with the naive/brute force approach. First thing that comes into mind. It shows that you’re able to think well and critically (you don't need to write this code, just speak about it).
+
+```javascript
+const array1 = ['a', 'b', 'c', 'x'];
+const array2 = ['z', 'y', 'a'];
+
+const containsCommonItem = (arr1, arr2) => {
+  for (let i=0; i < arr1.length; i++) {
+    for ( let j=0; j < arr2.length; j++) {
+      if(arr1[i] === arr2[j]) {
+        return true;
+      }
+    }
+  }
+  return false
+}
+
+containsCommonItem(array1, array2);
+```
+
+**[⬆ back to top](#table-of-contents)**
