@@ -860,4 +860,93 @@ const containsCommonItem = (arr1, arr2) => {
 containsCommonItem(array1, array2);
 ```
 
+6. Tell them why this approach is not the best (i.e. O(n^2) or higher, not readable, etc...)
+
+```javascript
+Time Complexity - O(a*b)
+Space Complexity - O(1)
+```
+
+7. Walk through your approach, comment things and see where you may be able to break things. Any repetition, bottlenecks like O(N^2), or unnecessary work? Did you use all the information the interviewer gave you? Bottleneck is the part of the code with the biggest Big O. Focus on that. Sometimes this occurs with repeated work as well.
+
+8. Before you start coding, walk through your code and write down the steps you are going to follow.
+
+```javascript
+const array1 = ['a', 'b', 'c', 'x'];
+const array2 = ['z', 'y', 'a'];
+
+array1 = obj {
+  a: true,
+  b: true,
+  c: true,
+  x: true
+}
+array2[index] === obj.properties
+```
+
+9.  Modularize your code from the very beginning. Break up your code into beautiful small pieces and add just comments if you need to.
+
+```javascript
+const array1 = ['a', 'b', 'c', 'x'];
+const array2 = ['z', 'y', 'a'];
+const containsCommonItem2 = (arr1, arr2) => {
+  // loop through first array and create object where properties === items in the array
+  // can we assume always 2 params?
+  let map = {};
+  for (let i=0; i < arr1.length; i++) {
+    if(!map[arr1[i]]) {
+      const item = arr1[i];
+      map[item] = true;
+    }
+  }
+
+  // loop through second array and check if item in second array exists on created object. 
+  for (let j=0; j < arr2.length; j++) {
+    if (map[arr2[j]]) {
+      return true;
+    }
+  }
+  return false
+}
+
+containsCommonItem2(array1, array2)
+
+// Time Complexity: O(a + b) 
+// Space Complexity: O(a)
+```
+
+10. Start actually writing your code now. Keep in mind that the more you prepare and understand what you need to code, the better the whiteboard will go. So never start a whiteboard interview not being sure of how things are going to work out. That is a recipe for disaster. Keep in mind: A lot of interviews ask questions that you won’t be able to fully answer on time. So think: What can I show in order to show that I can do this and I am better than other coders. Break things up in Functions (if you can’t remember a method, just make up a function and you will at least have it there. Write something, and start with the easy part.
+
+```javascript
+const array1 = ['a', 'b', 'c', 'x'];
+const array2 = ['z', 'y', 'a'];
+const arrToMap = arr1 => {
+  const map = {};
+  for (let i=0; i < arr1.length; i++) {
+    if(!map[arr1[i]]) {
+      const item = arr1[i];
+      map[item] = true;
+    }
+  }
+  return map;
+}
+
+const arrInMap = (map, arr2) => {
+  for (let j=0; j < arr2.length; j++) {
+    if (map[arr2[j]]) {
+      return true;
+    }
+  }
+  return false
+}
+
+const containsCommonItem2 = (arr1, arr2) => {
+  const map = arrToMap(arr1);
+  return arrInMap(map,arr2);
+}
+
+containsCommonItem2(array1, array2)
+```
+
+
 **[⬆ back to top](#table-of-contents)**
