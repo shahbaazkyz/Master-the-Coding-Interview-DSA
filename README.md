@@ -948,5 +948,51 @@ const containsCommonItem2 = (arr1, arr2) => {
 containsCommonItem2(array1, array2)
 ```
 
+11. Think about error checks and how you can break this code. Never make assumptions about the input. Assume people are trying to break your code and that Darth Vader is using your function. How will you safeguard it? Always check for false inputs that you don’t want. Here is a trick: Comment in the code, the checks that you want to do… write the function, then tell the interviewer that you would write tests now to make your function fail (but you won't need to actually write the tests).
+
+12. Don’t use bad/confusing names like i and j. Write code that reads well.
+
+13. Test your code: Check for no params, 0, undefined, null, massive arrays, async code, etc… Ask the interviewer if we can make assumption about the code. Can you make the answer return an error? Poke holes into your solution. Are you repeating yourself?
+
+```javascript
+const arrToMap = (arr1 = []) => {
+  const map = {};
+  for (let i=0; i < arr1.length; i++) {
+    if(!map[arr1[i]]) {
+      const item = arr1[i];
+      map[item] = true;
+    }
+  }
+  return map;
+}
+
+const arrInMap = (map, arr2) => {
+  for (let j=0; j < arr2.length; j++) {
+    if (map[arr2[j]]) {
+      return true;
+    }
+  }
+  return false
+}
+
+const containsCommonItem2 = (arr1 = [], arr2 = []) => {
+  const map = arrToMap(arr1);
+  return arrInMap(map,arr2);
+}
+
+containsCommonItem2()
+```
+
+14.  Finally talk to the interviewer where you would improve the code. Does it work? Are there different approaches? Is it readable? What would you google to improve? How can performance be improved? Possibly: Ask the interviewer what was the most interesting solution you have seen to this problem
+
+```javascript
+const containsCommonItem3 = (arr1, arr2) 
+  => arr1.some(item => arr2.includes(item))
+
+containsCommonItem3(array1, array2)
+```
+
+15. If your interviewer is happy with the solution, the interview usually ends here. It is also common that the interviewer asks you extension questions, such as how you would handle the problem if the whole input is too large to fit into memory, or if the input arrives as a stream. This is a common follow-up question at Google, where they care a lot about scale. The answer is usually a divide-and-conquer approach — perform distributed processing of the data and only read certain chunks of the input from disk into memory, write the output back to disk and combine them later.
+
 
 **[⬆ back to top](#table-of-contents)**
