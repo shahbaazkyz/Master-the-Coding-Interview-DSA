@@ -46,6 +46,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Exercise Google Video](#exercise-google-video)
     - [Exercise: Interview Question](#exercise-interview-question)
     - [Review Google Interview](#review-google-interview)
+    - [Section Summary](#section-summary-1)
 
 
 ## **Section 1: Introduction**
@@ -1036,5 +1037,17 @@ const hasPairWithSum2 = (arr, sum) => {
 hasPairWithSum2([1, 2, 3, 9], 8)
 hasPairWithSum2([1, 2, 4, 4], 8)
 ```
+
+**[⬆ back to top](#table-of-contents)**
+
+### Section Summary
+- One big misconception is that, you're either a good problem solver or you aren't?
+- **But as with anything, it's a muscle that you can train, that you can practice.**
+- So with enough practice and knowing the tips and tricks that we covered in this section you can solve problems alot better.
+- The key in this section was that cheatsheet. Step by step walk through of a problem.
+- The idea in Google video was, 
+  - Show how you work with THINK OUT LOUD.
+  - Try to comment the steps as you go along to solve a problem
+  - Communicating throughtout the process as much as possible and not worrying about finishing a problem fast is the key to interviewing in solving problems.
 
 **[⬆ back to top](#table-of-contents)**
