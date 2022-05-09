@@ -47,6 +47,8 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Exercise: Interview Question](#exercise-interview-question)
     - [Review Google Interview](#review-google-interview)
     - [Section Summary](#section-summary-1)
+  - [**Section 5: Data Structures Introduction**](#section-5-data-structures-introduction)
+    - [Section Overview](#section-overview-2)
 
 
 ## **Section 1: Introduction**
@@ -1051,3 +1053,13 @@ hasPairWithSum2([1, 2, 4, 4], 8)
   - Communicating throughtout the process as much as possible and not worrying about finishing a problem fast is the key to interviewing in solving problems.
 
 **[⬆ back to top](#table-of-contents)**
+
+## **Section 5: Data Structures Introduction**
+
+
+### Section Overview
+- A Data structure is a collection of values, algorithms are the steps or processes we put into place to manipulate these collection of values.
+- A person who knows how DSA work and how to use them can write great programs. 
+- The beauty of DSA is that these are timeless, no matter what programming language you use, whether you prefer  one library over the other, whether you write code in angular or React, or you are a game developer. Underneath it all it's all DSA.
+- If you understand these, then you can really easily adapt and tackle all sorts of technical problems.
+- The longer you are in the field the more and more you realize that you need these fundamental principles or DSA in order to be a great devloper or Engineer.
