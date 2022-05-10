@@ -49,6 +49,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Section Summary](#section-summary-1)
   - [**Section 5: Data Structures Introduction**](#section-5-data-structures-introduction)
     - [Section Overview](#section-overview-2)
+    - [How to choose the right Data Structure?](#how-to-choose-the-right-data-structure)
 
 
 ## **Section 1: Introduction**
@@ -1063,3 +1064,13 @@ hasPairWithSum2([1, 2, 4, 4], 8)
 - The beauty of DSA is that these are timeless, no matter what programming language you use, whether you prefer  one library over the other, whether you write code in angular or React, or you are a game developer. Underneath it all it's all DSA.
 - If you understand these, then you can really easily adapt and tackle all sorts of technical problems.
 - The longer you are in the field the more and more you realize that you need these fundamental principles or DSA in order to be a great devloper or Engineer.
+
+**[⬆ back to top](#table-of-contents)**
+
+### How to choose the right Data Structure?
+
+[Choosing the Right Data Structure to solve problems](https://www.careerdrill.com/blog/coding-interview/choosing-the-right-data-structure-to-solve-problems/)
+
+![](choose-data-structures.png)
+
+**[⬆ back to top](#table-of-contents)**
