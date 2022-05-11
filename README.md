@@ -50,6 +50,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
   - [**Section 5: Data Structures Introduction**](#section-5-data-structures-introduction)
     - [Section Overview](#section-overview-2)
     - [How to choose the right Data Structure?](#how-to-choose-the-right-data-structure)
+    - [What is a Data Structure?](#what-is-a-data-structure)
 
 
 ## **Section 1: Introduction**
@@ -1067,10 +1068,35 @@ hasPairWithSum2([1, 2, 4, 4], 8)
 
 **[⬆ back to top](#table-of-contents)**
 
+
 ### How to choose the right Data Structure?
 
 [Choosing the Right Data Structure to solve problems](https://www.careerdrill.com/blog/coding-interview/choosing-the-right-data-structure-to-solve-problems/)
 
 ![](choose-data-structures.png)
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### What is a Data Structure?
+
+- Again - A DS is a collection of values. The values can have realationships among them and they can have functions applied to them.
+- Each one is different in what it can do and what it is best used for.
+- *Most important thing to take away is that each Data structure is good and is specialized for its own thing.*
+- Like Fridge is foods, Bag is for books, folder is for files. Same as each Data structure is use for it's own purpose.
+- Data structure is like real life scenarios, we're modeling our programs like that.
+- The more advanced a developer you become, the more time you will start thinking and spending time talking about Data structures.
+- This is why interviewers love to talk about Data Structures. 
+- There are always tradeoffs, every programming question has tradeoffs. Remember three pillars?
+  - Readability.
+  - Time complexity.
+  - Space complexity.
+- Like we have tradeoffs in above three pillars, same as there are tradeoffs between Data structures. One is better than other in some aspects and the other better than the other. That's why they exists.
+- There are two parts to understand Data structures.
+  - How to build one.
+  - How to use it.
+- The second part is most important. Because Data structures are usually just tools and most of them are already pre-built for us.
+- When to use one over the other.
+- The goal in this course to understand Data Structure so that you can pick the right DS for your problem. 
 
 **[⬆ back to top](#table-of-contents)**
