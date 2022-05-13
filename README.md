@@ -51,6 +51,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Section Overview](#section-overview-2)
     - [How to choose the right Data Structure?](#how-to-choose-the-right-data-structure)
     - [What is a Data Structure?](#what-is-a-data-structure)
+    - [How Computers Stores Data](#how-computers-stores-data)
 
 
 ## **Section 1: Introduction**
@@ -1098,5 +1099,17 @@ hasPairWithSum2([1, 2, 4, 4], 8)
 - The second part is most important. Because Data structures are usually just tools and most of them are already pre-built for us.
 - When to use one over the other.
 - The goal in this course to understand Data Structure so that you can pick the right DS for your problem. 
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### How Computers Stores Data
+
+- [Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
+- [Registers and RAM](https://www.youtube.com/watch?v=fpnE6UAfbtU)
+
+- CPU: access RAM and Storage for information
+- RAM: fast but limited, non-persistent
+- Storage: more but slow, persistent
 
 **[⬆ back to top](#table-of-contents)**
