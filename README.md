@@ -52,6 +52,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [How to choose the right Data Structure?](#how-to-choose-the-right-data-structure)
     - [What is a Data Structure?](#what-is-a-data-structure)
     - [How Computers Stores Data](#how-computers-stores-data)
+    - [Data Structures In Different Languages](#data-structures-in-different-languages)
 
 
 ## **Section 1: Introduction**
@@ -1111,5 +1112,11 @@ hasPairWithSum2([1, 2, 4, 4], 8)
 - CPU: access RAM and Storage for information
 - RAM: fast but limited, non-persistent
 - Storage: more but slow, persistent
+
+**[⬆ back to top](#table-of-contents)**
+
+### Data Structures In Different Languages
+
+[Data Structures — Language Support (Part 3)](https://medium.com/omarelgabrys-blog/data-structures-language-support-5f70f8312e84)
 
 **[⬆ back to top](#table-of-contents)**
