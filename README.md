@@ -53,6 +53,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [What is a Data Structure?](#what-is-a-data-structure)
     - [How Computers Stores Data](#how-computers-stores-data)
     - [Data Structures In Different Languages](#data-structures-in-different-languages)
+    - [Operations On Data Structures](#operations-on-data-structures)
 
 
 ## **Section 1: Introduction**
@@ -1118,5 +1119,17 @@ hasPairWithSum2([1, 2, 4, 4], 8)
 ### Data Structures In Different Languages
 
 [Data Structures — Language Support (Part 3)](https://medium.com/omarelgabrys-blog/data-structures-language-support-5f70f8312e84)
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Operations On Data Structures
+
+- Insertion
+- Deletion
+- Traversal
+- Searching
+- Sorting
+- Access
 
 **[⬆ back to top](#table-of-contents)**
