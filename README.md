@@ -54,6 +54,8 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [How Computers Stores Data](#how-computers-stores-data)
     - [Data Structures In Different Languages](#data-structures-in-different-languages)
     - [Operations On Data Structures](#operations-on-data-structures)
+  - [**Section 6: Data Structures: Arrays**](#section-6-data-structures-arrays)
+    - [Arrays Introduction](#arrays-introduction)
 
 
 ## **Section 1: Introduction**
@@ -1131,5 +1133,56 @@ hasPairWithSum2([1, 2, 4, 4], 8)
 - Searching
 - Sorting
 - Access
+
+**[⬆ back to top](#table-of-contents)**
+
+
+## **Section 6: Data Structures: Arrays**
+
+### Arrays Introduction
+
+- Arrays are probably the simplest and most widely used data structures.
+
+Array vs Object
+
+- Arrays for storing ordered collections.
+- Objects for storing keyed collections.
+
+[Real life examples](https://www.youtube.com/watch?v=DBZoB8r4XY8)
+
+- [Cinema Book Challenge](https://www.101computing.net/cinema-booking-challenge/)
+
+Array
+
+| Operation | Big O |
+| --------- | ----- |
+| lookup    | O(1)  |
+| push      | O(1)  |
+| insert    | O(n)  |
+| delete    | O(n)  |
+
+```javascript
+// 4 * 4 = 16 bytes of storage
+const strings = ['a', 'b', 'c', 'd'];
+strings[2]
+
+const numbers = [1, 2, 3, 4, 5];
+
+//push
+strings.push('e');  // O(1)
+
+//pop
+strings.pop();  // O(1)
+strings.pop();  // O(1)
+
+//unshift
+// 'x' will push all elements to their right
+// ['x', 'a', 'b', 'c', 'd'];
+//   0    1    2    3    4
+strings.unshift('x')  // O(n)
+
+//splice
+strings.splice(2, 0, 'alien');  // O(n)
+```
 
 **[⬆ back to top](#table-of-contents)**
