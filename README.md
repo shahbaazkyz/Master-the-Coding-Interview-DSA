@@ -56,6 +56,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [Operations On Data Structures](#operations-on-data-structures)
   - [**Section 6: Data Structures: Arrays**](#section-6-data-structures-arrays)
     - [Arrays Introduction](#arrays-introduction)
+    - [Static vs Dynamic Arrays](#static-vs-dynamic-arrays)
 
 
 ## **Section 1: Introduction**
@@ -1184,5 +1185,19 @@ strings.unshift('x')  // O(n)
 //splice
 strings.splice(2, 0, 'alien');  // O(n)
 ```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Static vs Dynamic Arrays
+
+JavaScript Array is dynamic 
+
+| Array Operation | Big O | Dynamic Array | Big O        |
+| --------------- | ----- | ------------- | ------------ |
+| lookup          | O(1)  | lookup        | O(1)         |
+| push            | O(1)  | append*       | O(1) or O(n) |
+| insert          | O(n)  | insert        | O(n)         |
+| delete          | O(n)  | delete        | O(n)         |
 
 **[⬆ back to top](#table-of-contents)**
