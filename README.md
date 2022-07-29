@@ -37,6 +37,7 @@ Master the Coding Interview: Data Structures + Algorithms BY Andrei Neagoie Foun
     - [3 Pillars Of Programming](#3-pillars-of-programming)
     - [Space Complexity](#space-complexity)
     - [Exercise: Space Complexity](#exercise-space-complexity)
+    - [Exercise Twitter](#exercise-twitter)
 
 
 ## **Section 1: Introduction**
@@ -642,6 +643,9 @@ What causes Space Complexity?
 
 
 ### Exercise: Space Complexity
+- The's one gotcha when it comes to space complexity is that when we talk about space complexity we're talking about additional space, so we don't include space taken by the inputs.
+- We don't really care how big the input is.
+- In short, we just care about the spaces that are used by us, not user.
 
 ```javascript
 // Space complexity O(1)
@@ -664,5 +668,41 @@ const arrayOfHiNTimes = n => {
 }
 arrayOfHiNTimes(6)
 ```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+### Exercise Twitter
+- Let's assume you're working at Twitter, your boss asked you to build a feature, that allows anybody to click a button and retrieve their most recent tweet any their oldest tweet.
+- Without coding anything we know we have to find first and the last or Nth element/item.
+- So the complexity will be.
+
+```javascript
+const tweets = ["tweetOne", "tweetTwo", "tweetLast"]
+tweets[0] // O(1)
+tweets[tweets.lenght - 1] // O(1)
+```
+- But now our boss come and say, I want to compare the dates of tweets. I want you to look at every tweet and compare their date with each tweet date.  And return the latest one.
+
+```javascript
+const tweets = [{
+  tweet : "tweetOne",
+  date : 2012
+},
+{
+  tweet : "tweetTwo",
+  date : 2014
+},
+{
+  tweet : "tweetThree",
+  date : 2016
+}
+]
+```
+- In above code, we'll comparing each item with every item in array.
+- So, we'll be using Nested Loops. And this will be cost us **O(N^2)**
+- This operation might cost us a lot of money at Twitter.
+- So you might want to tell your boss, we might need to do something else perhaps store the information in a better format or do something different with our program in order to avoid something that might be ineffecient or might be expensive.
+- **By thinking this way, now you have the ability to think long-term, think scalable code.**
 
 **[⬆ back to top](#table-of-contents)**
